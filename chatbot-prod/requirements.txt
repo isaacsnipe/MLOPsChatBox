@@ -50,7 +50,7 @@ openapi-schema-pydantic==1.2.4
 packaging==23.1
 passlib==1.7.4
 pinecone-client==2.2.1
-pyasn1==0.5.0
+pyasn1==0.6.2
 pydantic==1.10.8
 pymongo==4.3.3
 PyMuPDF==1.22.3
@@ -69,7 +69,7 @@ sympy==1.12
 tenacity==8.2.2
 tiktoken==0.4.0
 tokenizers==0.13.3
-torch==2.0.1
+torch==2.10.0
 tqdm==4.65.0
 transformers==4.29.2
 triton==2.0.0
@@ -81,3 +81,4 @@ yarl==1.9.2
 gunicorn
 black==23.3.0
 isort==5.12.0
+wheel>=0.46.2 # not directly required, pinned by Snyk to avoid a vulnerability
